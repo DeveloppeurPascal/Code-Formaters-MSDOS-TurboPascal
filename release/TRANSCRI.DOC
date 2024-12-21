@@ -1,0 +1,72 @@
+                         TRANSCRIT
+
+   Cette s‚rie de logiciels est destin‚e … modifier l'‚criture des 
+fichiers sources dans diff‚rents langages.
+
+   3 types d'‚critures sont possibles:
+     - Type Borland: premiŠre lettre d'un mot  en  majuscule,  les 
+autres en minuscules (un mot ‚tant  d‚fini  comme  une  suite  de 
+caractŠres alphab‚tiques compris entre 'A' et 'Z');
+     -  Type  majuscule:  toutes  les  lettres  seront  mises   en 
+majuscules;
+     -  Type  minuscules:  toutes  les  lettres  seront  mises  en 
+minuscules.
+
+   Tous les langages trait‚s ont des facons diff‚rentes de traiter 
+les commentaire, TRANSCRIT en tient compte, et ne les modifie pas.
+TRANSCRIT ne modifie  pas  non  plus  les  chaines  de  caractŠres 
+propres … chaque langage.
+
+******************************************************************
+   TRANSPAS 1.6: (01/01/1991)
+
+* Cette version traite les fichiers de source en Pascal … la norme 
+ANSI (ou une autre).
+
+* Les commentaires sont entre (* et *) ou entre { et }  (en  Turbo 
+Pascal de Borland). Les instructions ne changent pas  suivant  les 
+versions du langage Pascal.
+
+* Les chaines de caractŠres sont entre cottes. ex: 'Chaine'.
+
+*  Les  fichiers  trait‚s  par  ce  programme  sont  des  fichiers 
+d'extension '.PAS' et aucun autre n'est autoris‚.
+
+******************************************************************
+   TRANSPAS 1.7: (09/03/1991)
+
+* Cette version  contient  la  corection  d'un  petit  bug  de  la 
+pr‚c‚dente qui ne prenait pas en compte les lignes  qui  suivaient 
+un commentaire et une ligne blanche. Ce bug est donc corrig‚.
+
+* On peut maintenant choisir des fichiers avec les masques * et  ? 
+du DOS. Les choix que vous ferez pour le premier  seront  pris  en 
+compte pour tous par d‚faut.
+
+******************************************************************
+   TRANSCOB 2.2: (09/02/1991)
+
+* Cette version traite les fichiers .CBL de source en Cobol.
+
+* Les commentaires sont signal‚s par un ast‚risque en  colonne  7, 
+et toute la ligne est ignor‚e.
+
+* Les chaines de caractŠres sont entre guillemets. ex: "Chaine".
+
+******************************************************************
+   TRANSASM 3.0: (01/01/1991)
+
+* Cette version traite les fichiers .ASM de source en Assembleur.
+
+* Les commentaires commencent par un point-virgule  ';'  n'importe 
+ou dans le listing. Le reste de la ligne n'est pas modifi‚.
+
+* Les chaines de caractŠres sont comme en  Pascal  d‚limit‚es  par 
+des cottes. ex: 'Chaine'.
+
+******************************************************************
+Vous pouvez me contacter pour me donner des id‚es de programmes et 
+utilitaires,  mais  aussi  pour  m'indiquer  les  bugs  que   vous 
+trouverez dans mes programmes … l'adresse suivante:
+
+(maj du 21/12/2024 : adresse postale de l'epoque retiree du fichier, me contacter depuis https://developpeur-pascal.fr ou https://olfsoftware.fr pour toute question)
